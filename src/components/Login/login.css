@@ -1,0 +1,12 @@
+/** @format */
+
+.loginConatiner {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Notsignup {
+  margin-top: 15px;
+}

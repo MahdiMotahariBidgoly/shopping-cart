@@ -1,0 +1,10 @@
+/** @format */
+.formConatiner {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AlreadyLogin {
+  margin-top: 15px;
+}

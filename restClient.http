@@ -1,0 +1,26 @@
+//we can test backend api with restClient or post..
+//each request seprated from the other with ###
+
+# ###
+# GET http://localhost:5000/api/product HTTP/1.1
+
+
+###
+POST http://localhost:5000/api/user/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "mahdi.test@gmail.com",
+    "password": "123456789"
+}
+
+###
+POST http://localhost:5000/api/user/register HTTP/1.1
+content-type: application/json
+
+{
+    "email": "mahdiitwst2@gmail.com",
+    "password": "123456789",
+    "name":"wahed m",
+    "phoneNumber":"09123456781"
+}
